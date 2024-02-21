@@ -1,0 +1,159 @@
+SRNID	     ROLL NO       STUDENT NAME
+202100102	1	Pinto Merwin Mohan
+
+
+202100177	2	Bedmutha Yashashree Sagar
+
+
+202100205	3	Apte Preet Ashutosh
+
+
+202100335	4	Kugaonkar Kaushal Purushottam
+
+
+202100358	5	Naik Yojana Prashant
+
+
+202100377	6	Baldota Bhavin Rahul
+
+
+202100381	7	Bramha Mahesh Nimbalkar
+
+
+202100458	8	Patil Deven Shashank
+
+
+202100529	9	Patil Mihil Sandeep
+
+
+202100542	10	Nair Nidhi Gopinath
+
+
+202100664	11	Karnawat Ayush Anand
+
+
+202100732	12	Dhavane Vidita Vivek
+
+
+202100792	13	Abdul Basit Samee Anwar Mulla
+
+
+202100807	14	Shah Vidal Dhaval
+
+
+202100822	15	Oswal Aiviya Hemant
+
+
+202100931	16	Aleem Rida Elias
+
+
+202100943	17	Jadhav Yash Prasad
+
+
+202101009	18	Musmade Nishant Nitin
+
+
+202101070	19	Martole Swapnil Gyanoba
+
+
+202101150	20	Agarwal Havi Girish
+
+
+202101193	21	Jayraj Sandeep Khinvasara
+
+
+202101210	22	Katiyar Devanshu
+
+
+202101231	23	Bhattad Mudra Pankaj
+
+
+202101262	24	Raykar Shreyash Rajendra
+
+
+202101264	25	Simran Kaur Bhinder
+
+
+202101279	26	Chaudhari Nayan Rajendra
+
+
+202101281	27	Dhabalia Dhruv Dharmesh
+
+
+202101301	28	Anurag Basu
+
+
+202101332	29	Shaikh Maaz Sameer
+
+
+202101398	30	Toshniwal Sakshi Jugalkishor
+
+
+202101425	31	Shravan Sudhir Meshram
+
+
+202101428	32	Oswal Rishi Sanjay
+
+
+202101439	33	Dharak Anushka Swanand
+
+
+202101461	34	Kocharekar Sahil Sharad
+
+
+202101499	35	Jagtap Pruthviraj Hanumant
+
+
+202101523	36	Hiya Kishor Jain
+
+
+202101634	37	Kale Rutuja Arjun
+
+
+202101650	38	Abhijeet Raman
+
+
+202101700	39	Shaikh Rushda Ilyas
+
+
+202101718	40	Oswal Diya Rajesh
+
+
+202101765	41	Jain Divya Sheetal
+
+
+202101776	42	Chitale Gargi Mangesh
+
+
+202200229	43	Shardul Shailendra Pujari
+
+
+202200947	44	Pushparaj Sundar Moolya
+
+
+202202063	45	Suraj Rajendra Suratkar
+
+
+202202181	46	Akhilesh Milind Dolare
+
+
+202202234	47	Shravani Devichand Ohal
+
+
+202202297	48	Danish Dhiraj Patel
+
+
+202202322	49	Payal Kundalik Sontakke
+
+
+202202402	50	Pranjali Uday Salunkhe
+
+
+202202421	51	Shah Neel Amit
+
+
+202202423	52	Jay Dehadray
+
+
+202202426	53	Krushna Purushottam Adane
+

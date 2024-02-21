@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title> Number Guessing Game </title>
+	
+		<style>
+
+			body{
+				background-color: black;
+			}
+
+			.button-elements{
+				background-color: slategray;
+				padding: 40px;
+				margin: 50px 570px;
+				border-radius: 20px;
+				border : 2px solid cyan;
+				text-align:center;
+				font-size:30px;
+			}
+
+			h1{
+				color:aqua;
+				text-align:center;
+			}
+
+			h4{
+				color:black;
+				text-align:center;
+			}
+		</style>
+	</head>
+
+	<body>
+		<br> 
+		<h1> Welcome to the Number Guessing Game ! <br> Click on START button <br>to Start the game </h1>
+
+		<button class="button-elements" type="submit" onclick="calculate1()"> START </button>
+
+		<script>
+				function calculate1()
+				{
+					let x = parseInt(prompt("Enter a number: ")); 
+
+					let guess_value = Math.floor(Math.random() * x ) + 1;
+					alert("Guess the right Number ! \n the number is between 0 and "+ x);
+
+					let y = parseInt(prompt("Guess the Random Created number : ")); 
+					
+					while(y!=guess_value)
+					{
+						if(y!=guess_value)
+						{
+							alert("Wrong value guessed :( ")
+							y =parseInt(prompt("Guess the Random Created number : ")); 
+						}
+						else
+						{
+							alert(" ")
+						}
+					}
+					alert("Right value Guessed :) \n\n Good Guessing ! == > " + guess_value + " is your Right Answer !");
+				}
+		</script>
+	</body>
+
+</html>

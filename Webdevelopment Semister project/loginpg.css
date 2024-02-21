@@ -1,0 +1,71 @@
+
+body{
+   background-image: url("https://media.istockphoto.com/id/1140265911/photo/modern-brick-wall-3d-rendering.jpg?s=612x612&w=0&k=20&c=T_ObRkTzdFtYkBAekQoXFvrTkI5j8VXVXGjQEwRyi1g=");
+  }
+
+.text1{
+    color:orange;
+    text-align: center;
+}
+
+.text2{
+    color:White;
+    text-align: center;
+}
+
+.A1{
+    border: 7px solid red;
+    background-color:cornsilk;
+    border-radius:10px;
+    padding : 20px;
+    font-family:Verdana;
+    text-align: center;
+    margin : 50px 450px 100px 450px;
+    color:black;
+}
+
+.A1 input{
+    background: white;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius:5px;
+    width: 70%;
+    margin: 0 0 15px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+
+  .A1 button {
+    background: navy;
+    width: 50%;
+    border: 0;
+    border-radius:10px;
+    padding: 15px;
+    color: White;
+    font-size: 14px;
+    text-transform: uppercase;
+    box-shadow: 0 2px 4px grey;
+    cursor: pointer;
+  }
+
+
+  img{
+    background-color:white;
+    border-radius:10px;
+    padding:10px;
+    margin:-150px 30px;
+    float:right;
+  }
+
+  a{
+    color:navy;
+  }
+
+  a:hover {
+    background-color: pink;
+    border-radius:10px;
+    padding:6px;
+    text-decoration:none;
+    text-transform: bold;
+  }

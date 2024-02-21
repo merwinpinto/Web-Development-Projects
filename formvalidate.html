@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Sample </title>
+
+        <style>
+
+            body{
+                background-color : black;
+            }
+            .A{
+                background-color: navy;
+                color: White;
+                padding:10px;
+                margin-left:300px;
+                margin-right:300px;
+                margin-top:100px;
+                margin-bottom:100px;
+                border-radius: 5px;
+                font-size:30px;
+                text-align:center;
+            }
+
+            .A h1{
+                text-align:center;
+            }
+
+            .A label{
+                display:block;
+                text-align:left;
+            }
+
+            .A input[type="text"],input[type="number"],input[type="password"],input[type="email"]{
+                padding:10px;
+                width:50%;
+            }
+
+            .A input[type="submit"]{
+                padding:20px;
+                background-color:azure;
+                border-radius:10px;
+            }
+        </style>
+
+    </head>
+
+    <body>
+        <!-- <div class="A"> -->
+            <form class="A">
+                <h1> My form </h1>
+                <br><br>
+                <label for="test1"> Enter Name : </label>
+                <input type="text" id="test1" value="" name="test1" placeholder="Name" required><br><br>
+
+                <label for="test2"> Enter Email :</label>
+                <input type="email" id="test2" value="" name="test2" placeholder="Email" required><br><br>
+
+                <label for="test3">  Enter Mobno :</label>
+                <input type="number" id="test3" value="" name="test3" placeholder="Mobileno" min=0 max=9999999999 required><br><br>
+
+                <label for="test4"> Enter Password :</label>
+                <input type="password"  id="test4" value="" name="test4" placeholder="Password" required><br><br>
+        
+                <input type="submit" value="Submit" onclick="validate()"><br><br>
+            </form>
+        
+            <script>
+                function validate()
+                {
+                    var inp_name = document.getElementById("test1").value;
+
+                    var inp_email = document.getElementById("test2").value;
+
+                    var inp_mob = document.getElementById("test3").value;
+                    
+                    var inp_pass = document.getElementById("test4").value;
+
+                    if(!inp_name || /\d|[@#$%^&*+]/.test(inp_name) || inp_name.length <2)
+                    {
+                        alert("Enter valid Name ");
+                        return;
+                    }
+
+                    else if(!inp_email || /\d|[#$%^&*+]|[A-Z]/.test(inp_email)|| !inp_email.includes("@gmail.com"))
+                    {
+                        alert("Enter valid Gmail address ");
+                        return;
+                    }
+
+                    else if(!inp_mob || /[a-z]|[@#$%^&*+]|[A-Z]/.test(inp_mob) || inp_mob.length < 10)
+                    {
+                        alert("Enter valid mobileno ");
+                        return;
+                    }
+
+                    else if(!inp_pass || !/\d|[@#$%^&*+]/.test(inp_pass) ||inp_pass.length < 5)
+                    {
+                        alert("Enter a strong password greater than 5 charcters having atleast 1 special character or number ");
+                        event.preventDefault();
+                        return;
+                    }
+
+                    else
+                    {
+                        return;
+                    }
+                        
+                }
+            </script>
+    </body>
+</html>

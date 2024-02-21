@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Assignment 8</title>
+    <style>
+        body{
+            background-color: khaki;
+        }
+        .box1{
+            text-align:center;
+        }
+        .box1 button{
+            background-color:black;
+            padding:10px;
+            border-radius:10px;
+            color:yellow;
+            text-align:center;
+            font-size:20px;
+            cursor:pointer;
+        }
+        .box{
+            background-color:lightcyan;
+            margin: 200px 200px 0px 200px;
+            padding:50px;
+            border: 2px solid black;
+            border-radius:10px;
+        }
+
+        h2{
+            text-align: center;
+        } 
+    </style>
+    </head>
+    <body>
+        <div class="box">
+        <h2>The XMLHttpRequest Object</h2>
+        <div class="box1">
+        <button type="button" onclick="loadDoc()">Request XML File data</button>
+        </div>
+        </div>
+        <p id="my_XMLfile_data"></p>
+        <script>
+            function loadDoc() 
+            {
+                const xhttp = new XMLHttpRequest();
+                xhttp.onload = function() {
+                document.getElementById("my_XMLfile_data").innerHTML = this.responseText;
+            }
+                xhttp.open("GET","XML.txt", true);
+                xhttp.send();
+            }
+        </script>
+        </body>
+</html>

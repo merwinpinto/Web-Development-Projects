@@ -1,0 +1,238 @@
+SRNID	     ROLL NO       STUDENT NAME
+202100007        1        Shrivats Agrawal
+
+
+202100213        2        Aditya Bhalerao
+
+
+202100268        3        Kunal Kulkarni
+
+
+202100349        4        Tanisha Venugopal Kodam
+
+
+202100376        5        Eshan Dev
+
+
+202100378        6        Maurya Badani
+
+
+202100419        7        Udayan Sushant Gaje
+
+
+202100424        8        Sagnik Ghosh
+
+
+202100427        9        Anannya Ashish Gujarathi
+
+
+202100491        10        Ojal Rane
+
+
+202100509        11        Fahad Baig
+
+
+202100513        12        Noopur Rane
+
+
+202100693        13        Sahil Vijay Patil
+
+
+202100697        14        Aditya Pingle
+
+
+202100871        15        Siddhesh Kailas Mangarule
+
+
+202100925        16        Nishant Kosalge
+
+
+202100952        17        Sanket Pate
+
+
+202101041        18        Digvijay Balasaheb Gadhave
+
+
+202101045        19        Deshmukh Vishal Vijay
+
+
+202101062        20        Gautam Surana
+
+
+202101082        21        Kiran Donni
+
+
+202101084        22        Samruddhi Girgaonkar
+
+
+202101132        23        Imaad Imran Hajwane
+
+
+202101135        24        Manasi Devendra Gursale
+
+
+202101245        25        Atharva Rahul Daga
+
+
+202101257        26        Maitreyee Ekbote
+
+
+202101280        27        Gaurav Jalindar Dane
+
+
+202101288        28        Viraj Ritesh Laddha
+
+
+202101291        29        Gauri Mehul Patel
+
+
+202101294        30        Anshul Subhash Rokade
+
+
+202101296        31        Kishal Sanjay Shah
+
+
+202101298        32        Tanmay Anil Sharma
+
+
+202101299        33        Aurangzeb Sheikh
+
+
+202101302        34        Avadhut Hanumant Dudhane
+
+
+202101312        35        Vaibhav Manish Sarode
+
+
+202101315        36        Deshmukh Ashutosh Santosh
+
+
+202101316        37        Mohee Bansal
+
+
+202101317        38        Prathamesh Jain
+
+
+202101325        39        Tushar Chede
+
+
+202101328        40        Kewal Nisar
+
+
+202101329        41        Diya Gautam Kaswa
+
+
+202101340        42        Aniket Ramchandra Patil
+
+
+202101344        43        Anurag Shivanand Sagare
+
+
+202101360        44        Prerana Ashwin Pensalwar
+
+
+202101374        45        Tulsi Bang
+
+
+202101375        46        Swaraj Raut
+
+
+202101379        47        Dhruv Mayekar
+
+
+202101395        48        Yash Khatavkar
+
+
+202202078        49        Shashank Rai
+
+
+202202101        50        Qais Kifayat Parkar
+
+
+202202119        51        Ameya Nitin Deo
+
+
+202202152        52        Paygude Yuvraj Ashok
+
+
+202202163        53        Pawar Yashraj Chandrashekhar
+
+
+202202182        54        Atharv Baban Bhayye
+
+
+202202192        55        Dipanshu Ghanshyam Chhanikar
+
+
+202202197        56        Madhura Nitin Kawade
+
+
+202202198        57        Vishwa Khelage
+
+
+202202318        58        Siddhant Hemant Patil
+
+
+202202319        59        Bhawnesh Hemant Shahare
+
+
+202202324        60        Suyog Prashant Lonsane
+
+
+202202327        61        Sairaj Anant Pachkude
+
+
+202202333        62        Smit Ranjit Mehta
+
+
+202202361        63        Hazra Sangita Suresh
+
+
+202202363        64        Vedanti Prashant Varudkar
+
+
+202202370        65        Junaidi Mohammad Danish Abdul Mujeeb
+
+
+202202372        66        Sarthak Prashant Chordiya
+
+
+202202388        67        WABLE GAURAV AJIT
+
+
+202202390        68        Rashi Ashokrao Chincholkar
+
+
+202202398        69        Tapkir Sourabh Anil
+
+
+202202400        70        Atharv Sunil Chavan
+
+
+202202404        71        Prajwal Vilas Devade
+
+
+202202405        72        Prathamesh Pranesh Sondur
+
+
+202202408        73        Suryawanshi Pratik Hairshchandra
+
+
+202202409        74        Bhagat Ritesh Prashant
+
+
+202202411        75        Atharva Rajendra Shirke
+
+
+202202414        76        Anurag Mahendra Bedmutha
+
+
+202202417        77        Tanay Devdas Ingale
+
+
+202202422        78        Ajit Dharmraj Dhumal
+
+
+202202446        79        Anushka Arunkumar Niladri
+
+

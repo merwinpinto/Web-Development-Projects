@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Assignment 5 </title>
+    
+        <style>
+            body{
+                background-color:maroon;
+            }
+
+            h2{
+                color:white;
+                text-align:center;
+            }
+
+            form{
+                background-color:rgb(243, 245, 189);
+                border-radius: 20px;
+                border:4px solid black;
+                padding: 20px;
+                margin: 50px 300px 100px 300px;
+                
+            }
+
+            .photo{
+                border: 5px solid black;
+                float:right;
+                width: 200px;
+                height: 200px;
+                display: flex;
+                justify-content:center;
+                align-items: center;
+            }
+
+            label{
+                color:black;
+                font-size:25px;
+            }
+
+            input [type=submit]{
+                background-color: blue;
+            }
+
+            .button_tabs button{
+                border-radius:10px;
+                border : 2px solid maroon;
+                padding: 10px;
+                margin: 0px 20px;
+                background-color: lightyellow;
+                cursor :pointer;
+            }
+        </style>
+    </head>
+
+    <body> 
+
+        <h2> <u> STUDENT REGISTRATION FORM </u></h2>
+        <h2> <u> ADMISSION FORM </u></h2>
+
+        <form>               
+            <div class="photo" >
+                <p><b> Student Photograph </b> </p>
+            </div>
+            
+            <br>
+            <label for="fname"> <b> First Name : &#160&#160&#160</b> </label>
+            <input type="text" id="fname" name="fname" value=" "><br>
+            <br>
+
+            <label for="lname"> <b> Last Name : &#160&#160&#160&#160 </b> </label>
+            <input type="text" id="lname" name="lname"  value=" "><br>
+            <br>
+
+            <label for="email"> <b> Email-ID : &#160&#160&#160&#160&#160&#160</b></label>
+            <input type="email" id="email" name="email" value=" "><br>
+            <br>
+
+            <label for="num"> <b> Mobile No : &#160&#160&#160&#160 </b></label>
+            <input type="number" id="num" name="Mobile_Number" >
+            <br>
+
+            <h4> Gender</h4>
+            <ul>
+                <input type="radio" id="gender1" name="Gender" value="Male"> 
+                <label for = 'gender1 '> <b> Male </b>  </label>
+                <br>
+                <input type="radio" id="gender2" name="Gender" value="Female"> 
+                <label for = 'gender2 '> <b> Female </b>  </label>
+                <br>
+            </ul>
+
+            <label for = 'Dt_birth '> <b> Date Of Birth : &#160&#160&#160&#160&#160</b>  </label>
+            <input type="date" id="gender2" name="Birth_day" value="Female"> <br> <br>
+
+            <label for = 'add '> <b> Address :</b>  </label>
+            <br>
+            <textarea 
+                     id='add' name="message" rows="10" cols="30" >
+            </textarea>
+            <br><br>
+            <label for="city"> <b> City : &#160&#160&#160&#160&#160&#160&#160&#160&#160&#160</b> </label>
+            <input type="text" id="city" name="city" value=" "><br>
+            <br> 
+            <label for="pincode"> <b> Pincode : &#160&#160&#160&#160</b></label>
+            <input type="number" id="pincode" name="pincode"  value=" "><br>
+            <br>
+            <label for="state"> <b> State : &#160&#160&#160&#160&#160&#160&#160&#160&#160</b></label>
+            <input type="text" id="state" name="state" value=" "><br>
+            <br>
+            <label for="country"> <b> Country : &#160&#160&#160</b></label>
+            <input type="text" id="country" name="country" value=" "><br>
+            <br>
+
+            <h4> Hobbies </h4>
+            <ul>
+                <input type="checkbox" id="Drawing" name="Drawing">    
+                <label for="Drawing"> <b> Drawing </b> </label>
+                <br>
+                <input type="checkbox" id="Singing" name="Singing">
+                <label for="Singing"> <b> Singing </b> </label>
+                <br>
+                <input type="checkbox" id="Dancing" name="Dancing">
+                <label for="Dancing"> <b> Dancing </b> </label>
+                <br>
+                <input type="checkbox" id="Painting" name="Painting">
+                <label for="Painting"> <b> Painting &#160&#160&#160</b> </label>
+                <br>
+                <input type="checkbox" id="Others" name="others">
+                <label for="others"> <b> others </b> </label>
+                <input type="text" id="others" name="others" value=" ">
+            </ul>
+
+            <br>
+            <h4> Qualification </h4>
+            <ul>
+                <input type="checkbox" id="tenth" name="tenth">    
+                <label for="tenth"> <b> 10th </b> </label>
+                <br>
+                <input type="checkbox" id="twelve" name="twelve">
+                <label for="twelve"> <b> 12th </b> </label>
+                <br>
+                <input type="checkbox" id="grad" name="pg">
+                <label for="grad"> <b> Under Graduate </b> </label>
+                <br>
+                <input type="checkbox" id="pg" name="pg">
+                <label for="pg"> <b> Post Graduate </b> </label>
+                
+            </ul>
+            <br> <h4>Course </h4>
+            <ul>
+                <input type="radio" id="engg1" name="Course" value="B.Tech CSE"> 
+                <label for = 'engg1 '> <b> B.Tech CSE </b>  </label>
+                <br>
+                
+                <input type="radio" id="engg2" name="Course" value=" B.Tech AI & DS"> 
+                <label for = 'engg2 '> <b> B.Tech AI & DS  </b>  </label> 
+                <br>                
+                               
+                <input type="radio" id="engg3" name="Course" value="B.Tech BA">
+                <label for = 'engg3 '> <b>  B.Tech BA  </b>  </label>  
+                <br>                
+                               
+                <input type="radio" id="engg4" name="Course" value="B.Tech Cyber"> 
+                <label for = 'engg4 '> <b> B.Tech Cyber  </b>  </label>
+                <br>                
+                 
+            </ul>
+
+            <div class="button_tabs">
+                <button type="Submit" onclick="Submission()" >Submit</button>
+                <button type="reset" > Reset </button>
+            </div>
+        </form>
+
+        <script>
+            function Submission()
+          {
+            const fname = document.getElementById("fname").value;
+            const lname = document.getElementById("lname").value;
+            const email = document.getElementById("email").value;
+            var mobile_no = document.getElementById("num").value;
+            const city = document.getElementById("city").value;
+            var pincode = document.getElementById("pincode").value;
+            const state = document.getElementById("state").value;
+            const country = document.getElementById("country").value;
+            
+            if (fname === " " || lname === " " || email === " " || mobile_no === " " || city === " " || pincode === " " || state === " " || country === " ") 
+            {
+                alert("Please fill all the fields");
+                return false;
+            }
+
+            const email_element = email.split("@");
+            
+             if (email !== email.toLowerCase()) 
+             {
+                alert("Please enter the email address in all lower case only");
+                return false;
+             }
+              
+              if (email_element[1] !== "vupune.ac.in") 
+              {
+              alert("Please enter a valid email address with the domain @vupune.ac.in");
+              return false;
+              } 
+
+              if (mobile_no.length !== 10 || isNaN(mobile_no)) 
+              {
+                alert("Please enter Valid Mobile number.");
+                return false;
+              }
+
+              if (pincode.length !== 6 || isNaN(pincode)) 
+              {
+                alert("Please enter Valid Pincode.");
+                return false;
+              }
+              return true;
+          }
+        </script>
+    </body>  
+</html>

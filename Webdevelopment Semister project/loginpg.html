@@ -1,0 +1,70 @@
+<html>
+    <head>
+      <title> Login </title>
+
+      <link rel="stylesheet" type="text/css" href="loginpg.css">
+    </head>
+
+    <body>
+        <br>
+        <h1 class="text1 ">Vishwakarma University </h1>
+        <h1 class="text2 ">Instructor login <br></h1>
+        <img src="https://www.vupune.ac.in/images/logo.png" > 
+        <form class="A1" method="post" action="Connect1.php">
+          <br>
+          <!-- Email input -->
+            <input type="email" id="login1"  placeholder="VU Email Address" name="email">
+            <label  for="login1"> </label><br><br>
+  
+          <!-- password input -->
+            <input type="password" id="login2" placeholder="password " name="password">
+            <label for="login2">  </label>
+
+            <input type="checkbox" id="check-password" onclick="Passoword_visibility()" /> <br><br>
+
+            <!-- Login -->
+            <div class="Button_design">
+            <button type="submit" value="submit" onclick="login()">Login</button>
+            </div><br><br>
+            <!-- Forgot password -->
+            <a href="password_reset.html"><b> Forgot password? </b></a>
+            <br><br>
+
+            </p>
+        </form>
+        <script>
+          function login()
+          {
+            const email = document.getElementById("login1").value;
+            const password = document.getElementById("login2").value;
+            const email_element = email.split("@");
+  
+              if (email_element === "test1@vupune.ac.in") 
+              {
+                window.location.href = "S1.html";
+              } 
+
+              else
+                return;
+
+          }
+
+          function Passoword_visibility()
+		      {
+			      var pass = document.getElementById("login2");
+			      var pass_check = document.getElementById("check-password");
+
+			      if(pass_check.checked)
+			      {
+				      pass.type = 'text';
+			      }
+			      else
+			      {
+				      pass.type = "password";
+			      }
+		}
+        
+        </script>
+    </body>
+
+</html>

@@ -1,0 +1,137 @@
+<DOCTYPE html>
+<html>
+	<head> 
+		<title> Login </title>
+	<style>
+	body{background-color:black ;}	
+
+	.abc{ 
+		text-align:center ;
+		color:orange;
+		background-color:navy ;
+		padding:20px;
+		border:2px solid yellow;
+		border-radius: 20px;
+		margin : 100px 200px 0px 200px;
+		}
+	
+	.form-box{
+		background-color : khaki;
+		margin : 100px 400px 0px 400px;
+		padding :50px;
+		border-radius:10px;
+		text-align: center;
+		border: 5px solid red;
+		  }
+
+	.form-box button{ 
+		background-color: skyblue;
+		padding :20px;
+		border-radius:10px;
+		border: 2px solid black ;
+		cursor : pointer; 
+  		border-bottom: 7px solid navy;
+		border-right: 7px solid navy;
+		}
+
+	.form-box button:active {
+  		transform: translateY(10px);
+	}
+
+	.form-box input{
+  		background-color:white;
+		padding :10px;
+		border-radius: 10px;
+		border :2px solid black;
+	}
+
+	.form-box a:hover {
+		background-color:lightcyan;
+		padding : 10px;
+		border-radius : 7px;
+	}
+	</style>
+
+	</head>
+
+	<body>
+	
+	<h1 class="abc"> WELCOME TO MY LOGIN PAGE </h1><br><br>
+	
+	<div class="form-box">
+	<form >
+	<label for="username" ><b> USERNAME : </b> &#160&#160&#160&#160</label>
+	<input type="email" placeholder =" Enter Email " id="username" name="username"  required>
+	<br><br><br>
+	<label for="password" ><b>PASSWORD : </b>&#160 &#160&#160&#160</label>
+	<input type="password" id="password" name="password" value="" placeholder =" Enter Password" required>
+	<input type="checkbox" id="check-password" onclick="Passoword_visibility()"/>
+	<br><br><br><br>
+	<button type="button" onclick = login() > <b> LOGIN  </b></button><br>
+		<h3> Dont have an Account ?<br> Signup through the<br> link provided below </h3> <br>
+	<a href="Signup.html"> <b>Click here to Sign up </b></a>
+		
+	
+	</form>
+	</div>
+
+	<script>
+		function login()
+		{
+			var login_username = document.getElementById('username').value;
+			var login_password  = document.getElementById('password').value;
+			var _lowercase = /[a-z]/.test(login_password);
+  			var _uppercase = /[A-Z]/.test(login_password);
+  			var _number = /\d/.test(login_password);
+  			var _special = /[@$!%*?&]/.test(login_password);
+			
+
+			  if (login_username === "abc@vupune.ac.in") 
+              {
+                window.location.href = "http://example.com/";
+              } 
+
+			if (!login_username || !login_password) 
+			{
+    			alert('Please enter both username and password');
+    			return;
+  			}
+
+			else if (login_password.length < 6) 
+			{
+    			alert('Please enter Password with atleast 6 characters');
+    			return;
+  			}
+
+			else if (!_lowercase || !_uppercase || !_number || !_special) 
+			{
+    			alert('Please enter a password that contains at least one lowercase letter, one uppercase letter, one number, and one special character ');
+    			return;
+  			}
+
+			else{
+				return;
+			}
+		}
+
+		function Passoword_visibility()
+		{
+			var pass = document.getElementById("password");
+			var pass_check = document.getElementById("check-password");
+
+			if(pass_check.checked)
+			{
+				pass.type = 'text';
+			}
+			else
+			{
+				pass.type = "password";
+			}
+		}
+
+	
+	
+	</script>
+	
+	</body>
+</html>

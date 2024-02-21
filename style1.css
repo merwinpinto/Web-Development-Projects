@@ -1,0 +1,187 @@
+body{
+	background-image: url('https://cdn.pixabay.com/photo/2021/01/31/14/31/water-5967218_1280.jpg');
+        background-size: cover;
+        background-color:Navy;
+        counter-reset: counter;
+}
+
+label{
+        font-size:20px;
+        color:White;
+        }
+
+h1{
+        font-size:20px;
+        color:yellow;
+        background-color:black;
+        text-align:center;
+}
+
+
+.A {
+        display: flex;
+        align-items: center;
+}
+
+.container{
+        height: auto;
+        width: auto;
+        text-align: center;
+}
+
+.form-colours{
+        height: auto;
+        margin: 0px 300px;
+        border-radius: 20px;
+        border-color:black;
+        background-color: black;
+}
+
+
+.heading{
+        background-color:orange;
+        padding:1px;
+        width: auto ;
+        height:auto;
+        border-radius: 30px;
+        margin : 0px 200px 0px 200px;
+        font-size:30px;
+        color:black;
+        text-align:center;
+}
+
+.Help{
+        background-color: darkblue;
+        padding:10px;
+        border-radius: 20px;
+        margin : 0px 100px 0px 100px;
+        color:yellow;
+        text-align: left; 
+              
+}    
+
+li{
+   counter-increment: counter1;
+   font-size:23px;
+   
+}
+      
+li::before {
+   content: counter(counter1) ".";
+}
+
+.veg{
+        background-color:darkgreen ;
+        padding:50px;
+        width: auto ;
+        height:auto;
+        border-radius: 20px;
+        font-size:30px;
+        text-align:center;
+        margin : 0px 100px 0px 100px;
+}
+
+.nonveg{
+        background-color:maroon ;
+        padding:50px;
+        width: auto ;
+        height:auto;
+        border-radius: 20px;
+        font-size:30px;
+        text-align:center;
+        margin : 0px 100px 0px 100px;
+}
+
+.test1{
+        padding:10px ;
+        border-radius:70px;
+        background-color:black;
+        width:20%;
+        text-align:center;
+}
+
+.test2{
+        padding:10px ;
+        border-radius:70px;
+        background-color:black;
+        width:20%;
+        text-align:center;
+}
+
+.test3{
+        padding:10px ;
+        border-radius:80px;
+        background-color:black;
+        width:20%;
+        text-align:center;
+}
+
+.test5{
+        padding:20px ;
+        border-radius:80px;
+        background-color:black;
+        margin: 0px 100px 0px 100px;
+        text-align:center;
+}
+
+.button_tabs{
+        align-items: center;
+        display: flex; 
+        padding: 20px; 
+        justify-content: center;
+}
+
+.test4{
+        padding:10px ;
+        border-radius:70px;
+        background-color:black;
+        width:20%;
+        text-align:center;
+}
+
+#bill{
+        background-color:white ;
+        padding:50px;
+        width: auto ;
+        height:auto;
+        border-radius: 20px;
+        font-size:30px;
+        text-align:left;
+        margin : 0px 100px 0px 100px;
+}
+
+#bill label{
+        color:black;
+        font-size:20px;
+}
+
+.stars{
+        background-color:crimson ;
+        padding:30px;
+        width: auto;
+        height:auto;
+        border-radius: 20px;
+        font-size:20px;
+        text-align:center;
+        margin : 0px 100px 0px 100px;
+}
+
+
+.p1{
+        background-color:yellow;
+        border: 2px solid Red;
+        padding:5px;
+        border-radius:10px;
+        width:30%;
+        
+}
+
+.p2{
+        background-color:yellow;
+        border: 2px solid Red;
+        padding:10px;
+        border-radius:10px;
+        width:30%;
+        margin-right:900px;
+}
+

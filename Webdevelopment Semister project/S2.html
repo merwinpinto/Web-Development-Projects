@@ -1,0 +1,958 @@
+<html>
+    <head>
+      <title> Student Attendance </title>
+
+      <link rel="stylesheet" type="text/css" href="S2.css">
+  
+    </head>
+
+    <body>
+        <br>
+        <h3 class="text1 ">Student Attendance Sheet<br></h3>
+        <h3 class ="text2">Science and Technology Dept</h3>
+        <h6 class ="text4" > SECOND YEAR  </h6>
+        <hr>
+        <img src="https://www.vupune.ac.in/images/logo.png" >
+        
+        
+<div class="main-box">    
+<form class="B0">   
+    <div class="box2">
+        <h7 class="text3"> <b>KINDLY SELECT DIV AND SUBJECT OPTION</b> </h7><br>
+
+        <label for="Course_year"></label>
+            <select id="Course_year" onchange="changeContent()" >
+                
+                <option value="default">Select Course & Division </option>
+                <optgroup label="TOC"></optgroup>
+                
+                <option value="TOCSY_A"> SY A division </option>
+                <option value="TOCSY_E"> SY E division </option>
+                
+                <optgroup label="WTL"></optgroup>
+                <option value="WTLSY_E"> SY E division </option>
+            </select>
+            
+    </div>
+</form>
+</div>
+
+
+<form class="B1" id="B1" method="Post" action="data4.php" style="display:none">   
+    <div class="box1"> 
+        <label for="Date_of_attendance1"><b>Attendance Date:</b></label>
+        <input type="date" id="Date_of_attendance1" name="Date_of_attendance1">
+    </div><br> 
+
+        <h4>STUDENTS LIST </h4>
+        <div id="TOCSY_A_attendance" class="attendance1" >
+        <br><br><br>
+        <label for="TOCSYA1"> <b> 1 </b> </label>
+        <input type="checkbox" id="TOCSYA1" name="TOCSYA1"><br><br>
+    
+        <label for="TOCSYA2"> <b> 2 </b> </label>
+        <input type="checkbox" id="TOCSYA2" name="TOCSYA2"><br><br>
+    
+        <label for="TOCSYA3"> <b> 3 </b> </label>
+        <input type="checkbox" id="TOCSYA3" name="TOCSYA3"><br><br>
+    
+        <label for="TOCSYA4"> <b> 4 </b> </label>
+        <input type="checkbox" id="TOCSYA4" name="TOCSYA4"><br><br>
+    
+        <label for="TOCSYA5"> <b> 5 </b> </label>
+        <input type="checkbox" id="TOCSYA5" name="TOCSYA5"><br><br>
+
+        <label for="TOCSYA6"> <b> 6 </b> </label>
+        <input type="checkbox" id="TOCSYA6" name="TOCSYA6"><br><br>
+    
+        <label for="TOCSYA7"> <b> 7 </b> </label>
+        <input type="checkbox" id="TOCSYA7" name="TOCSYA7"><br><br>
+    
+        <label for="TOCSYA8"> <b> 8 </b> </label>
+        <input type="checkbox" id="TOCSYA8" name="TOCSYA8"><br><br>
+    
+        <label for="TOCSYA9"> <b> 9 </b> </label>
+        <input type="checkbox" id="TOCSYA9" name="TOCSYA9"><br><br>
+    
+        <label for="TOCSYA10"> <b> 10 </b> </label>
+        <input type="checkbox" id="TOCSYA10" name="TOCSYA10"><br><br>
+
+        <label for="TOCSYA11"> <b> 11 </b> </label>
+        <input type="checkbox" id="TOCSYA11" name="TOCSYA11"><br><br>
+    
+        <label for="TOCSYA12"> <b> 12 </b> </label>
+        <input type="checkbox" id="TOCSYA12" name="TOCSYA12"><br><br>
+    
+        <label for="TOCSYA13"> <b> 13 </b> </label>
+        <input type="checkbox" id="TOCSYA13" name="TOCSYA13"><br><br>
+    
+        <label for="TOCSYA14"> <b> 14 </b> </label>
+        <input type="checkbox" id="TOCSYA14" name="TOCSYA14"><br><br>
+    
+        <label for="TOCSYA15"> <b> 15 </b> </label>
+        <input type="checkbox" id="TOCSYA15" name="TOCSYA15"><br><br>
+
+        <label for="TOCSYA16"> <b> 16 </b> </label>
+        <input type="checkbox" id="TOCSYA16" name="TOCSYA16"><br><br>
+    
+        <label for="TOCSYA17"> <b> 17 </b> </label>
+        <input type="checkbox" id="TOCSYA17" name="TOCSYA17"><br><br>
+    
+        <label for="TOCSYA18"> <b> 18 </b> </label>
+        <input type="checkbox" id="TOCSYA18" name="TOCSYA18"><br><br>
+    
+        <label for="TOCSYA19"> <b> 19 </b> </label>
+        <input type="checkbox" id="TOCSYA19" name="TOCSYA19"><br><br>
+    
+        <label for="TOCSYA20"> <b> 20 </b> </label>
+        <input type="checkbox" id="TOCSYA20" name="TOCSYA20"><br><br>
+
+        <label for="TOCSYA21"> <b> 21 </b> </label>
+        <input type="checkbox" id="TOCSYA21" name="TOCSYA21"><br><br>
+    
+        <label for="TOCSYA22"> <b> 22 </b> </label>
+        <input type="checkbox" id="TOCSYA22" name="TOCSYA22"><br><br>
+    
+        <label for="TOCSYA23"> <b> 23 </b> </label>
+        <input type="checkbox" id="TOCSYA23" name="TOCSYA23"><br><br>
+    
+        <label for="TOCSYA24"> <b> 24 </b> </label>
+        <input type="checkbox" id="TOCSYA24" name="TOCSYA24"><br><br>
+    
+        <label for="TOCSYA25"> <b> 25 </b> </label>
+        <input type="checkbox" id="TOCSYA25" name="TOCSYA25"><br><br>
+
+        <label for="TOCSYA26"> <b> 26 </b> </label>
+        <input type="checkbox" id="TOCSYA26" name="TOCSYA26"><br><br>
+    
+        <label for="TOCSYA27"> <b> 27 </b> </label>
+        <input type="checkbox" id="TOCSYA27" name="TOCSYA27"><br><br>
+    
+        <label for="TOCSYA28"> <b> 28 </b> </label>
+        <input type="checkbox" id="TOCSYA28" name="TOCSYA28"><br><br>
+    
+        <label for="TOCSYA29"> <b> 29 </b> </label>
+        <input type="checkbox" id="TOCSYA29" name="TOCSYA29"><br><br>
+    
+        <label for="TOCSYA30"> <b> 30 </b> </label>
+        <input type="checkbox" id="TOCSYA30" name="TOCSYA30"><br><br>
+
+        <label for="TOCSYA31"> <b> 31 </b> </label>
+        <input type="checkbox" id="TOCSYA31" name="TOCSYA31"><br><br>
+    
+        <label for="TOCSYA32"> <b> 32 </b> </label>
+        <input type="checkbox" id="TOCSYA32" name="TOCSYA32"><br><br>
+    
+        <label for="TOCSYA33"> <b> 33 </b> </label>
+        <input type="checkbox" id="TOCSYA33" name="TOCSYA33"><br><br>
+    
+        <label for="TOCSYA34"> <b> 34 </b> </label>
+        <input type="checkbox" id="TOCSYA34" name="TOCSYA34"><br><br>
+    
+        <label for="TOCSYA35"> <b> 35 </b> </label>
+        <input type="checkbox" id="TOCSYA35" name="TOCSYA35"><br><br>
+
+        <label for="TOCSYA36"> <b> 36 </b> </label>
+        <input type="checkbox" id="TOCSYA36" name="TOCSYA36"><br><br>
+    
+        <label for="TOCSYA37"> <b> 37 </b> </label>
+        <input type="checkbox" id="TOCSYA37" name="TOCSYA37"><br><br>
+    
+        <label for="TOCSYA38"> <b> 38 </b> </label>
+        <input type="checkbox" id="TOCSYA38" name="TOCSYA38"><br><br>
+    
+        <label for="TOCSYA39"> <b> 39 </b> </label>
+        <input type="checkbox" id="TOCSYA39" name="TOCSYA39"><br><br>
+    
+        <label for="TOCSYA40"> <b> 40 </b> </label>
+        <input type="checkbox" id="TOCSYA40" name="TOCSYA40"><br><br>
+        
+        <label for="TOCSYA41"> <b> 41 </b> </label>
+        <input type="checkbox" id="TOCSYA41" name="TOCSYA41"><br><br>
+    
+        <label for="TOCSYA42"> <b> 42 </b> </label>
+        <input type="checkbox" id="TOCSYA42" name="TOCSYA42"><br><br>
+    
+        <label for="TOCSYA43"> <b> 43 </b> </label>
+        <input type="checkbox" id="TOCSYA43" name="TOCSYA43"><br><br>
+    
+        <label for="TOCSYA44"> <b> 44 </b> </label>
+        <input type="checkbox" id="TOCSYA44" name="TOCSYA44"><br><br>
+    
+        <label for="TOCSYA45"> <b> 45 </b> </label>
+        <input type="checkbox" id="TOCSYA45" name="TOCSYA45"><br><br>
+
+        <label for="TOCSYA46"> <b> 46 </b> </label>
+        <input type="checkbox" id="TOCSYA46" name="TOCSYA46"><br><br>
+    
+        <label for="TOCSYA47"> <b> 47 </b> </label>
+        <input type="checkbox" id="TOCSYA47" name="TOCSYA47"><br><br>
+    
+        <label for="TOCSYA48"> <b> 48 </b> </label>
+        <input type="checkbox" id="TOCSYA48" name="TOCSYA48"><br><br>
+    
+        <label for="TOCSYA49"> <b> 49 </b> </label>
+        <input type="checkbox" id="TOCSYA49" name="TOCSYA49"><br><br>
+    
+        <label for="TOCSYA50"> <b> 50 </b> </label>
+        <input type="checkbox" id="TOCSYA50" name="TOCSYA50"><br><br>
+
+        <label for="TOCSYA51"> <b> 51 </b> </label>
+        <input type="checkbox" id="TOCSYA51" name="TOCSYA51"><br><br>
+    
+        <label for="TOCSYA52"> <b> 52 </b> </label>
+        <input type="checkbox" id="TOCSYA52" name="TOCSYA52"><br><br>
+    
+        <label for="TOCSYA53"> <b> 53 </b> </label>
+        <input type="checkbox" id="TOCSYA53" name="TOCSYA53"><br><br>
+    
+        <label for="TOCSYA54"> <b> 54 </b> </label>
+        <input type="checkbox" id="TOCSYA54" name="TOCSYA54"><br><br>
+    
+        <label for="TOCSYA55"> <b> 55 </b> </label>
+        <input type="checkbox" id="TOCSYA55" name="TOCSYA55"><br><br>
+
+        <label for="TOCSYA56"> <b> 56 </b> </label>
+        <input type="checkbox" id="TOCSYA56" name="TOCSYA56"><br><br>
+    
+        <label for="TOCSYA57"> <b> 57 </b> </label>
+        <input type="checkbox" id="TOCSYA57" name="TOCSYA57"><br><br>
+    
+        <label for="TOCSYA58"> <b> 58 </b> </label>
+        <input type="checkbox" id="TOCSYA58" name="TOCSYA58"><br><br>
+    
+        <label for="TOCSYA59"> <b> 59 </b> </label>
+        <input type="checkbox" id="TOCSYA59" name="TOCSYA59"><br><br>
+    
+        <label for="TOCSYA60"> <b> 60 </b> </label>
+        <input type="checkbox" id="TOCSYA60" name="TOCSYA60"><br><br>
+
+        <label for="TOCSYA61"> <b> 61 </b> </label>
+        <input type="checkbox" id="TOCSYA61" name="TOCSYA61"><br><br>
+    
+        <label for="TOCSYA62"> <b> 62 </b> </label>
+        <input type="checkbox" id="TOCSYA62" name="TOCSYA62"><br><br>
+    
+        <label for="TOCSYA63"> <b> 63 </b> </label>
+        <input type="checkbox" id="TOCSYA63" name="TOCSYA63"><br><br>
+    
+        <label for="TOCSYA64"> <b> 64 </b> </label>
+        <input type="checkbox" id="TOCSYA64" name="TOCSYA64"><br><br>
+    
+        <label for="TOCSYA65"> <b> 65 </b> </label>
+        <input type="checkbox" id="TOCSYA65" name="TOCSYA65"><br><br>
+
+        <label for="TOCSYA66"> <b> 66 </b> </label>
+        <input type="checkbox" id="TOCSYA66" name="TOCSYA66"><br><br>
+    
+        <label for="TOCSYA67"> <b> 67 </b> </label>
+        <input type="checkbox" id="TOCSYA67" name="TOCSYA67"><br><br>
+    
+        <label for="TOCSYA68"> <b> 68 </b> </label>
+        <input type="checkbox" id="TOCSYA68" name="TOCSYA68"><br><br>
+    
+        <label for="TOCSYA69"> <b> 69 </b> </label>
+        <input type="checkbox" id="TOCSYA69" name="TOCSYA69"><br><br>
+    
+        <label for="TOCSYA70"> <b> 70 </b> </label>
+        <input type="checkbox" id="TOCSYA70" name="TOCSYA70"><br><br>
+
+        <label for="TOCSYA71"> <b> 71 </b> </label>
+        <input type="checkbox" id="TOCSYA71" name="TOCSYA71"><br><br>
+    
+        <label for="TOCSYA72"> <b> 72 </b> </label>
+        <input type="checkbox" id="TOCSYA72" name="TOCSYA72"><br><br>
+    
+        <label for="TOCSYA73"> <b> 73 </b> </label>
+        <input type="checkbox" id="TOCSYA73" name="TOCSYA73"><br><br>
+    
+        <label for="TOCSYA74"> <b> 74 </b> </label>
+        <input type="checkbox" id="TOCSYA74" name="TOCSYA74"><br><br>
+    
+        <label for="TOCSYA75"> <b> 75 </b> </label>
+        <input type="checkbox" id="TOCSYA75" name="TOCSYA75"><br><br>
+
+        <label for="TOCSYA76"> <b> 76 </b> </label>
+        <input type="checkbox" id="TOCSYA76" name="TOCSYA76"><br><br>
+    
+        <label for="TOCSYA77"> <b> 77 </b> </label>
+        <input type="checkbox" id="TOCSYA77" name="TOCSYA77"><br><br>
+    
+        <label for="TOCSYA78"> <b> 78 </b> </label>
+        <input type="checkbox" id="TOCSYA78" name="TOCSYA78"><br><br>
+    
+        <label for="TOCSYA79"> <b> 79 </b> </label>
+        <input type="checkbox" id="TOCSYA79" name="TOCSYA79"><br><br>
+        </div>
+
+        <input type="hidden" id="P_count1" name="P_count1">
+        <input type="hidden" id="P_roll1"  name="P_roll1">
+        <input type="hidden" id="A_count1" name="A_count1">
+        <input type="hidden" id="A_roll1"  name="A_roll1">
+        <input type="hidden" id="sub1"  name="sub1">
+
+        <div id="myDiv1">Course and Divison not Selected </div>
+            <iframe id="studentList1" src='' width="50%" height="3300"></iframe>
+        </div><br><br>
+
+        <div id="TOCSY_A_attendance_colors" class="Attendance_colors" >
+            <h7> Please Save Data Before Submitting </h7><br><br>
+            <button type="button" onclick="calculateAttendance1()"> SAVE DATA </button>
+            <br> <br> <Button  type="submit" id="Attend1" name="Attend1" onclick="redirectToPage()" style="display : none" > SUBMIT DATA </Button> 
+        </div>    
+
+        <div class="Button_design">
+            <button type="button" onclick="logout()" >LogOut</button>
+        </div>
+</form>
+
+
+<form class="B2" id="B2" method="Post" action="data5.php" style="display:none">
+    <div class="box1"> 
+        <label for="Date_of_attendance2"><b>Attendance Date:</b></label>
+        <input type="date" id="Date_of_attendance2" name="Date_of_attendance2">
+    </div><br>    
+
+        <h4>STUDENTS LIST </h4>
+        <div id="TOCSY_E_attendance" class="attendance2" >
+        <br><br><br>
+        <label for="TOCSYE1"> <b> 1 </b> </label>
+        <input type="checkbox" id="TOCSYE1" name="TOCSYE1"><br><br>
+    
+        <label for="TOCSYE2"> <b> 2 </b> </label>
+        <input type="checkbox" id="TOCSYE2" name="TOCSYE2"><br><br>
+    
+        <label for="TOCSYE3"> <b> 3 </b> </label>
+        <input type="checkbox" id="TOCSYE3" name="TOCSYE3"><br><br>
+    
+        <label for="TOCSYE4"> <b> 4 </b> </label>
+        <input type="checkbox" id="TOCSYE4" name="TOCSYE4"><br><br>
+    
+        <label for="TOCSYE5"> <b> 5 </b> </label>
+        <input type="checkbox" id="TOCSYE5" name="TOCSYE5"><br><br>
+
+        <label for="TOCSYE6"> <b> 6 </b> </label>
+        <input type="checkbox" id="TOCSYE6" name="TOCSYE6"><br><br>
+    
+        <label for="TOCSYE7"> <b> 7 </b> </label>
+        <input type="checkbox" id="TOCSYE7" name="TOCSYE7"><br><br>
+    
+        <label for="TOCSYE8"> <b> 8 </b> </label>
+        <input type="checkbox" id="TOCSYE8" name="TOCSYE8"><br><br>
+    
+        <label for="TOCSYE9"> <b> 9 </b> </label>
+        <input type="checkbox" id="TOCSYE9" name="TOCSYE9"><br><br>
+    
+        <label for="TOCSYE10"> <b> 10 </b> </label>
+        <input type="checkbox" id="TOCSYE10" name="TOCSYE10"><br><br>
+
+        <label for="TOCSYE11"> <b> 11 </b> </label>
+        <input type="checkbox" id="TOCSYE11" name="TOCSYE11"><br><br>
+    
+        <label for="TOCSYE12"> <b> 12 </b> </label>
+        <input type="checkbox" id="TOCSYE12" name="TOCSYE12"><br><br>
+    
+        <label for="TOCSYE13"> <b> 13 </b> </label>
+        <input type="checkbox" id="TOCSYE13" name="TOCSYE13"><br><br>
+    
+        <label for="TOCSYE14"> <b> 14 </b> </label>
+        <input type="checkbox" id="TOCSYE14" name="TOCSYE14"><br><br>
+    
+        <label for="TOCSYE15"> <b> 15 </b> </label>
+        <input type="checkbox" id="TOCSYE15" name="TOCSYE15"><br><br>
+
+        <label for="TOCSYE16"> <b> 16 </b> </label>
+        <input type="checkbox" id="TOCSYE16" name="TOCSYE16"><br><br>
+    
+        <label for="TOCSYE17"> <b> 17 </b> </label>
+        <input type="checkbox" id="TOCSYE17" name="TOCSYE17"><br><br>
+    
+        <label for="TOCSYE18"> <b> 18 </b> </label>
+        <input type="checkbox" id="TOCSYE18" name="TOCSYE18"><br><br>
+    
+        <label for="TOCSYE19"> <b> 19 </b> </label>
+        <input type="checkbox" id="TOCSYE19" name="TOCSYE19"><br><br>
+    
+        <label for="TOCSYE20"> <b> 20 </b> </label>
+        <input type="checkbox" id="TOCSYE20" name="TOCSYE20"><br><br>
+
+        <label for="TOCSYE21"> <b> 21 </b> </label>
+        <input type="checkbox" id="TOCSYE21" name="TOCSYE21"><br><br>
+    
+        <label for="TOCSYE22"> <b> 22 </b> </label>
+        <input type="checkbox" id="TOCSYE22" name="TOCSYE22"><br><br>
+    
+        <label for="TOCSYE23"> <b> 23 </b> </label>
+        <input type="checkbox" id="TOCSYE23" name="TOCSYE23"><br><br>
+    
+        <label for="TOCSYE24"> <b> 24 </b> </label>
+        <input type="checkbox" id="TOCSYE24" name="TOCSYE24"><br><br>
+    
+        <label for="TOCSYE25"> <b> 25 </b> </label>
+        <input type="checkbox" id="TOCSYE25" name="TOCSYE25"><br><br>
+
+        <label for="TOCSYE26"> <b> 26 </b> </label>
+        <input type="checkbox" id="TOCSYE26" name="TOCSYE26"><br><br>
+    
+        <label for="TOCSYE27"> <b> 27 </b> </label>
+        <input type="checkbox" id="TOCSYE27" name="TOCSYE27"><br><br>
+    
+        <label for="TOCSYE28"> <b> 28 </b> </label>
+        <input type="checkbox" id="TOCSYE28" name="TOCSYE8"><br><br>
+    
+        <label for="TOCSYE29"> <b> 29 </b> </label>
+        <input type="checkbox" id="TOCSYE29" name="TOCSYE29"><br><br>
+    
+        <label for="TOCSYE30"> <b> 30 </b> </label>
+        <input type="checkbox" id="TOCSYE30" name="TOCSYE30"><br><br>
+
+        <label for="TOCSYE31"> <b> 31 </b> </label>
+        <input type="checkbox" id="TOCSYE31" name="TOCSYE31"><br><br>
+    
+        <label for="TOCSYE32"> <b> 32 </b> </label>
+        <input type="checkbox" id="TOCSYE32" name="TOCSYE32"><br><br>
+    
+        <label for="TOCSYE33"> <b> 33 </b> </label>
+        <input type="checkbox" id="TOCSYE33" name="TOCSYE33"><br><br>
+    
+        <label for="TOCSYE34"> <b> 34 </b> </label>
+        <input type="checkbox" id="TOCSYE34" name="TOCSYE34"><br><br>
+    
+        <label for="TOCSYE35"> <b> 35 </b> </label>
+        <input type="checkbox" id="TOCSYE35" name="TOCSYE35"><br><br>
+
+        <label for="TOCSYE36"> <b> 36 </b> </label>
+        <input type="checkbox" id="TOCSYE36" name="TOCSYE36"><br><br>
+    
+        <label for="TOCSYE37"> <b> 37 </b> </label>
+        <input type="checkbox" id="TOCSYE37" name="TOCSYE37"><br><br>
+    
+        <label for="TOCSYE38"> <b> 38 </b> </label>
+        <input type="checkbox" id="TOCSYE38" name="TOCSYE38"><br><br>
+    
+        <label for="TOCSYE39"> <b> 39 </b> </label>
+        <input type="checkbox" id="TOCSYE39" name="TOCSYE39"><br><br>
+    
+        <label for="TOCSYE40"> <b> 40 </b> </label>
+        <input type="checkbox" id="TOCSYE40" name="TOCSYE40"><br><br>
+        
+        <label for="TOCSYE41"> <b> 41 </b> </label>
+        <input type="checkbox" id="TOCSYE41" name="TOCSYE41"><br><br>
+    
+        <label for="TOCSYE42"> <b> 42 </b> </label>
+        <input type="checkbox" id="TOCSYE42" name="TOCSYE42"><br><br>
+    
+        <label for="TOCSYE43"> <b> 43 </b> </label>
+        <input type="checkbox" id="TOCSYE43" name="TOCSYE43"><br><br>
+    
+        <label for="TOCSYE44"> <b> 44 </b> </label>
+        <input type="checkbox" id="TOCSYE44" name="TOCSYE44"><br><br>
+    
+        <label for="TOCSYE45"> <b> 45 </b> </label>
+        <input type="checkbox" id="TOCSYE45" name="TOCSYE45"><br><br>
+
+        <label for="TOCSYE46"> <b> 46 </b> </label>
+        <input type="checkbox" id="TOCSYE46" name="TOCSYE46"><br><br>
+    
+        <label for="TOCSYE47"> <b> 47 </b> </label>
+        <input type="checkbox" id="TOCSYE47" name="TOCSYE47"><br><br>
+    
+        <label for="TOCSYE48"> <b> 48 </b> </label>
+        <input type="checkbox" id="TOCSYE48" name="TOCSYE48"><br><br>
+    
+        <label for="TOCSYE49"> <b> 49 </b> </label>
+        <input type="checkbox" id="TOCSYE49" name="TOCSYE49"><br><br>
+    
+        <label for="TOCSYE50"> <b> 50 </b> </label>
+        <input type="checkbox" id="TOCSYE50" name="TOCSYE50"><br><br>
+
+        <label for="TOCSYE51"> <b> 51 </b> </label>
+        <input type="checkbox" id="TOCSYE51" name="TOCSYE51"><br><br>
+    
+        <label for="TOCSYE52"> <b> 52 </b> </label>
+        <input type="checkbox" id="TOCSYE52" name="TOCSYE52"><br><br>
+    
+        <label for="TOCSYE53"> <b> 53 </b> </label>
+        <input type="checkbox" id="TOCSYE53" name="TOCSYE53"><br><br>
+        </div>
+
+        <input type="hidden" id="P_count2" name="P_count2">
+        <input type="hidden" id="P_roll2"  name="P_roll2">
+        <input type="hidden" id="A_count2" name="A_count2">
+        <input type="hidden" id="A_roll2"  name="A_roll2">
+        <input type="hidden" id="sub2"  name="sub2">
+    
+
+        <div id="myDiv2">Course and Divison not Selected </div>
+                <iframe id="studentList2" src='' width="50%" height="2200"></iframe>
+        </div><br><br><br>
+    
+        <div id="TOCSY_E_attendance_colors" class="Attendance_colors" >
+        <h7> Please Save Data Before Submitting </h7><br><br>
+        <button type="button" onclick="calculateAttendance2()"> SAVE DATA </button>
+        <br> <br> <Button  type="submit" id="Attend2" name="Attend2" onclick="redirectToPage()" style="display : none"> SUBMIT DATA </Button> 
+        </div>
+
+        <div class="Button_design">
+        <button type="button" onclick="logout()" >LogOut</button>
+        </div>
+</form>
+
+        
+
+
+<form class="B3" id="B3" method="Post" action="data6.php" style="display:none">    
+    <div class="box1"> 
+        <label for="Date_of_attendance3"><b>Attendance Date:</b></label>
+        <input type="date" id="Date_of_attendance3" name="Date_of_attendance3">
+    </div><br> 
+            
+        <h4>STUDENTS LIST </h4>
+        <div id="WTLSY_E_attendance" class="attendance3" >
+        <br><br><br>
+        <label for="WTLE1"> <b> 1 </b> </label>
+        <input type="checkbox" id="WTLE1" name="WTLE1"><br><br>
+    
+        <label for="WTLE2"> <b> 2 </b> </label>
+        <input type="checkbox" id="WTLE2" name="WTLE2"><br><br>
+    
+        <label for="WTLE3"> <b> 3 </b> </label>
+        <input type="checkbox" id="WTLE3" name="WTLE3"><br><br>
+    
+        <label for="WTLE4"> <b> 4 </b> </label>
+        <input type="checkbox" id="WTLE4" name="WTLE4"><br><br>
+    
+        <label for="WTLE5"> <b> 5 </b> </label>
+        <input type="checkbox" id="WTLE5" name="WTLE5"><br><br>
+
+        <label for="WTLE6"> <b> 6 </b> </label>
+        <input type="checkbox" id="WTLE6" name="WTLE6"><br><br>
+    
+        <label for="WTLE7"> <b> 7 </b> </label>
+        <input type="checkbox" id="WTLE7" name="WTLE7"><br><br>
+    
+        <label for="WTLE8"> <b> 8 </b> </label>
+        <input type="checkbox" id="WTLE8" name="WTLE8"><br><br>
+    
+        <label for="WTLE9"> <b> 9 </b> </label>
+        <input type="checkbox" id="WTLE9" name="WTLE9"><br><br>
+    
+        <label for="WTLE10"> <b> 10 </b> </label>
+        <input type="checkbox" id="WTLE10" name="WTLE10"><br><br>
+
+        <label for="WTLE11"> <b> 11 </b> </label>
+        <input type="checkbox" id="WTLE11" name="WTLE11"><br><br>
+    
+        <label for="WTLE12"> <b> 12 </b> </label>
+        <input type="checkbox" id="WTLE12" name="WTLE12"><br><br>
+    
+        <label for="WTLE13"> <b> 13 </b> </label>
+        <input type="checkbox" id="WTLE13" name="WTLE13"><br><br>
+    
+        <label for="WTLE14"> <b> 14 </b> </label>
+        <input type="checkbox" id="WTLE14" name="WTLE14"><br><br>
+    
+        <label for="WTLE15"> <b> 15 </b> </label>
+        <input type="checkbox" id="WTLE15" name="WTLE15"><br><br>
+
+        <label for="WTLE16"> <b> 16 </b> </label>
+        <input type="checkbox" id="WTLE16" name="WTLE16"><br><br>
+    
+        <label for="WTLE17"> <b> 17 </b> </label>
+        <input type="checkbox" id="WTLE17" name="WTLE17"><br><br>
+    
+        <label for="WTLE18"> <b> 18 </b> </label>
+        <input type="checkbox" id="WTLE18" name="WTLE18"><br><br>
+    
+        <label for="WTLE19"> <b> 19 </b> </label>
+        <input type="checkbox" id="WTLE19" name="WTLE19"><br><br>
+    
+        <label for="WTLE20"> <b> 20 </b> </label>
+        <input type="checkbox" id="WTLE20" name="WTLE20"><br><br>
+
+        <label for="WTLE21"> <b> 21 </b> </label>
+        <input type="checkbox" id="WTLE21" name="WTLE21"><br><br>
+    
+        <label for="WTLE22"> <b> 22 </b> </label>
+        <input type="checkbox" id="WTLE22" name="WTLE22"><br><br>
+    
+        <label for="WTLE23"> <b> 23 </b> </label>
+        <input type="checkbox" id="WTLE23" name="WTLE23"><br><br>
+    
+        <label for="WTLE24"> <b> 24 </b> </label>
+        <input type="checkbox" id="WTLE24" name="WTLE24"><br><br>
+    
+        <label for="WTLE25"> <b> 25 </b> </label>
+        <input type="checkbox" id="WTLE25" name="WTLE25"><br><br>
+
+        <label for="WTLE26"> <b> 26 </b> </label>
+        <input type="checkbox" id="WTLE26" name="WTLE26"><br><br>
+    
+        <label for="WTLE27"> <b> 27 </b> </label>
+        <input type="checkbox" id="WTLE27" name="WTLE27"><br><br>
+    
+        <label for="WTLE28"> <b> 28 </b> </label>
+        <input type="checkbox" id="WTLE28" name="WTLE8"><br><br>
+    
+        <label for="WTLE29"> <b> 29 </b> </label>
+        <input type="checkbox" id="WTLE29" name="WTLE29"><br><br>
+    
+        <label for="WTLE30"> <b> 30 </b> </label>
+        <input type="checkbox" id="WTLE30" name="WTLE30"><br><br>
+
+        <label for="WTLE31"> <b> 31 </b> </label>
+        <input type="checkbox" id="WTLE31" name="WTLE31"><br><br>
+    
+        <label for="WTLE32"> <b> 32 </b> </label>
+        <input type="checkbox" id="WTLE32" name="WTLE32"><br><br>
+    
+        <label for="WTLE33"> <b> 33 </b> </label>
+        <input type="checkbox" id="WTLE33" name="WTLE33"><br><br>
+    
+        <label for="WTLE34"> <b> 34 </b> </label>
+        <input type="checkbox" id="WTLE34" name="WTLE34"><br><br>
+    
+        <label for="WTLE35"> <b> 35 </b> </label>
+        <input type="checkbox" id="WTLE35" name="WTLE35"><br><br>
+
+        <label for="WTLE36"> <b> 36 </b> </label>
+        <input type="checkbox" id="WTLE36" name="WTLE36"><br><br>
+    
+        <label for="WTLE37"> <b> 37 </b> </label>
+        <input type="checkbox" id="WTLE37" name="WTLE37"><br><br>
+    
+        <label for="WTLE38"> <b> 38 </b> </label>
+        <input type="checkbox" id="WTLE38" name="WTLE38"><br><br>
+    
+        <label for="WTLE39"> <b> 39 </b> </label>
+        <input type="checkbox" id="WTLE39" name="WTLE39"><br><br>
+    
+        <label for="WTLE40"> <b> 40 </b> </label>
+        <input type="checkbox" id="WTLE40" name="WTLE40"><br><br>
+        
+        <label for="WTLE41"> <b> 41 </b> </label>
+        <input type="checkbox" id="WTLE41" name="WTLE41"><br><br>
+    
+        <label for="WTLE42"> <b> 42 </b> </label>
+        <input type="checkbox" id="WTLE42" name="WTLE42"><br><br>
+    
+        <label for="WTLE43"> <b> 43 </b> </label>
+        <input type="checkbox" id="WTLE43" name="WTLE43"><br><br>
+    
+        <label for="WTLE44"> <b> 44 </b> </label>
+        <input type="checkbox" id="WTLE44" name="WTLE44"><br><br>
+    
+        <label for="WTLE45"> <b> 45 </b> </label>
+        <input type="checkbox" id="WTLE45" name="WTLE45"><br><br>
+
+        <label for="WTLE46"> <b> 46 </b> </label>
+        <input type="checkbox" id="WTLE46" name="WTLE46"><br><br>
+    
+        <label for="WTLE47"> <b> 47 </b> </label>
+        <input type="checkbox" id="WTLE47" name="WTLE47"><br><br>
+    
+        <label for="WTLE48"> <b> 48 </b> </label>
+        <input type="checkbox" id="WTLE48" name="WTLE48"><br><br>
+    
+        <label for="WTLE49"> <b> 49 </b> </label>
+        <input type="checkbox" id="WTLE49" name="WTLE49"><br><br>
+    
+        <label for="WTLE50"> <b> 50 </b> </label>
+        <input type="checkbox" id="WTLE50" name="WTLE50"><br><br>
+
+        <label for="WTLE51"> <b> 51 </b> </label>
+        <input type="checkbox" id="WTLE51" name="WTLE51"><br><br>
+    
+        <label for="WTLE52"> <b> 52 </b> </label>
+        <input type="checkbox" id="WTLE52" name="WTLE52"><br><br>
+    
+        <label for="WTLE53"> <b> 53 </b> </label>
+        <input type="checkbox" id="WTLE53" name="WTLE53"><br><br>
+        </div>
+
+        <input type="hidden" id="P_count3" name="P_count3">
+        <input type="hidden" id="P_roll3"  name="P_roll3">
+        <input type="hidden" id="A_count3" name="A_count3">
+        <input type="hidden" id="A_roll3"  name="A_roll3">
+        <input type="hidden" id="sub3"  name="sub3">
+
+        <div id="myDiv3">Course and Divison not Selected </div>
+                <iframe id="studentList3" src='' width="50%" height="2200"></iframe>
+        </div><br><br>
+    
+        <div id="WTLSY_E_attendance_colors" class="Attendance_colors" >
+            <h7> Please Save Data Before Submitting </h7><br><br>
+            <button type="button" onclick="calculateAttendance3()"> SAVE DATA  </button>
+            <br> <br> <Button  type="submit" id="Attend3" name="Attend3" onclick="redirectToPage()" style="display : none"> SUBMIT DATA </Button> 
+        </div>
+
+        <div class="Button_design">
+            <button type="button" onclick="logout()" >LogOut</button>
+        </div>
+</form>
+    
+        <script>
+            function changeContent() 
+            {
+                const formB1 = document.getElementById('B1');
+                const formB2 = document.getElementById('B2');
+                const formB3 = document.getElementById('B3');
+
+                var selectYear = document.getElementById("Course_year");
+                var selectedValue = selectYear.value;
+                var divElement1 = document.getElementById("myDiv1");
+                var divElement2 = document.getElementById("myDiv2");
+                var divElement3 = document.getElementById("myDiv3");
+                var iframeElement1 = document.getElementById("studentList1");
+                var iframeElement2 = document.getElementById("studentList2");
+                var iframeElement3 = document.getElementById("studentList3");
+                var TOCSY_A_attendance = document.getElementById("TOCSY_A_attendance");
+                var TOCSY_E_attendance = document.getElementById("TOCSY_E_attendance");
+                var WTLSY_E_attendance = document.getElementById("WTLSY_E_attendance");
+
+                var TOCSY_A_attendance_colors = document.getElementById("TOCSY_A_attendance_colors");
+                var TOCSY_E_attendance_colors = document.getElementById("TOCSY_E_attendance_colors");
+                var WTLSY_E_attendance_colors = document.getElementById("WTLSY_E_attendance_colors");
+                const Attendance = document.getElementById('Date_of_attendance');
+
+                switch (selectedValue) 
+                {
+                    case "TOCSY_A":
+                    formB1.style.display = 'block';
+                    formB2.style.display = 'none';
+                    formB3.style.display = 'none';
+                    
+                    divElement1.innerHTML = "TOC SY A DIVISION";
+                    iframeElement1.src = "SYA.txt";
+
+                    TOCSY_A_attendance.style.display = "block";
+                    document.getElementById("TOCSY_E_attendance").style.display = "none";
+
+                    TOCSY_A_attendance_colors.style.display = "block";
+                    document.getElementById("TOCSY_E_attendance_colors").style.display = "none";
+                    
+                    document.getElementById("WTLSY_E_attendance").style.display = "none";
+                    WTLSY_E_attendance_colors.style.display = "none";
+                    break;
+
+                    case "TOCSY_E":
+                    formB1.style.display = 'none';
+                    formB2.style.display = 'block';
+                    formB3.style.display = 'none';
+
+                    divElement2.innerHTML = "TOC SY E DIVISION";
+                    iframeElement2.src = "SYE.txt";
+
+                    document.getElementById("TOCSY_A_attendance").style.display = "none";
+                    TOCSY_E_attendance.style.display = "block";
+
+                    document.getElementById("TOCSY_A_attendance_colors").style.display = "none";
+                    TOCSY_E_attendance_colors.style.display = "block";
+
+                    document.getElementById("WTLSY_E_attendance").style.display = "none";
+                    WTLSY_E_attendance_colors.style.display = "none";
+                    break;
+
+                    case "WTLSY_E":
+                    formB1.style.display = 'none';
+                    formB2.style.display = 'none';
+                    formB3.style.display = 'block';
+
+                    divElement3.innerHTML = "WTL SY E DIVISION";
+                    iframeElement3.src = "SYE.txt";
+
+                    
+                    document.getElementById("TOCSY_A_attendance").style.display = "none";
+                    document.getElementById("TOCSY_E_attendance").style.display = "none";
+                    
+                    
+                    document.getElementById("TOCSY_A_attendance_colors").style.display = "none";
+                    document.getElementById("TOCSY_E_attendance_colors").style.display = "none";
+
+                    WTLSY_E_attendance.style.display = "block";
+                    WTLSY_E_attendance_colors.style.display = "block";
+                    break;
+
+                    default:
+                    formB1.style.display = 'none';
+                    formB2.style.display = 'none';
+                    formB3.style.display = 'block';
+
+                    divElement1.innerHTML = "COURSE AND DIVISION NOT SELECTED";
+                    divElement2.innerHTML = "COURSE AND DIVISION NOT SELECTED";
+                    divElement3.innerHTML = "COURSE AND DIVISION NOT SELECTED";
+
+                    iframeElement1.src = "Nodata.txt";
+                    iframeElement2.src = "Nodata.txt";
+                    iframeElement3.src = "Nodata.txt";
+                    
+                    TOCSY_A_attendance.style.display = "none";
+                    TOCSY_E_attendance.style.display = "none";
+                    WTLSY_E_attendance.style.display = "none";
+
+                    TOCSY_A_attendance_colors.style.display = "none";
+                    TOCSY_E_attendance_colors.style.display = "none";
+                    WTLSY_E_attendance_colors.style.display = "none";
+                }
+            }
+
+            function calculateAttendance1() 
+            {
+                var date_value = document.forms["B1"]["Date_of_attendance1"].value;
+                if (date_value == "") 
+                {
+                    alert("DATE NOT ENTERED");
+                    return false;
+                }
+
+                var subject = "TOC";
+                var checkboxes = document.querySelectorAll('.attendance1 input[type="checkbox"]');
+                var Present1 = 0;
+                var Absent1 = 0;
+                var presentStudents1 = "";
+                var absentStudents1 = "";
+
+                checkboxes.forEach(function(checkbox) 
+                {
+                    if (checkbox.checked) 
+                    {
+                        Present1++;
+                        presentStudents1 += checkbox.labels[0].textContent + ", ";
+                    } 
+                    
+                    else 
+                    {
+                        Absent1++;
+                        absentStudents1 += checkbox.labels[0].textContent + ", ";
+                    }
+                }
+                );
+                        var P_count1 = Present1;                  
+                        var A_count1 = Absent1;     
+                        var P_rollno1 = presentStudents1.slice(0, -2);
+                        var A_rollno1 = absentStudents1.slice(0, -2);
+     
+                        alert("\t\t\t\t\t\tSUBJECT : " + subject + "\n\n\n" + "DATE OF ATTENDNACE : " + date_value + "\n\n" + "PRESENT STUDENTS \n" + "TOTAL COUNT = " + P_count1 + "\n" +"ROLL NUMBERS : " + P_rollno1 + "\n \n ABSENT STUDENTS \n" + "TOTAL COUNT = " + A_count1 + "\n" +"ROLL NUMBERS = " + A_rollno1);
+                        
+                        document.getElementById("sub1").value = subject;
+                        document.getElementById("P_count1").value = P_count1;
+                        document.getElementById("P_roll1").value  = P_rollno1;
+                        document.getElementById("A_count1").value = A_count1;
+                        document.getElementById("A_roll1").value  = A_rollno1;
+                        document.getElementById("Attend1").style.display = "block";
+
+                        alert("CLICK ON SUBMIT BUTTON");
+            }
+
+
+            function calculateAttendance2() 
+            {
+                var date_value = document.forms["B2"]["Date_of_attendance2"].value;
+                if (date_value == "") 
+                {
+                    alert("DATE NOT ENTERED");
+                    return false;
+                }
+                var subject = "TOC";
+                var checkboxes = document.querySelectorAll('.attendance2 input[type="checkbox"]');
+                var Present2 = 0;
+                var Absent2 = 0;
+                var presentStudents2 = "";
+                var absentStudents2 = "";
+                checkboxes.forEach(function(checkbox) 
+                {
+                    if (checkbox.checked) 
+                    {
+                        Present2++;
+                        presentStudents2 += checkbox.labels[0].textContent + ", ";
+                    } 
+                    
+                    else 
+                    {
+                        Absent2++;
+                        absentStudents2 += checkbox.labels[0].textContent + ", ";
+                    }
+                }
+                );
+
+                    var P_count2 = Present2;
+                    var A_count2 = Absent2;
+                    var P_rollno2 = presentStudents2.slice(0, -2);
+                    var A_rollno2 = absentStudents2.slice(0, -2);
+                    alert("\t\t\t\t\t\tSUBJECT : " + subject + "\n\n\n" + "DATE OF ATTENDNACE : " + date_value + "\n\n" + "PRESENT STUDENTS \n" + "TOTAL COUNT = " + P_count2 + "\n" +"ROLL NUMBERS : " + P_rollno2 + "\n \n ABSENT STUDENTS \n" + "TOTAL COUNT = " + A_count2 + "\n" +"ROLL NUMBERS = " + A_rollno2);
+            
+                        document.getElementById("sub2").value = subject;
+                        document.getElementById("P_count2").value = P_count2;
+                        document.getElementById("P_roll2").value  = P_rollno2;
+                        document.getElementById("A_count2").value = A_count2;
+                        document.getElementById("A_roll2").value  = A_rollno2;
+                        document.getElementById("Attend2").style.display = "block";
+
+                    alert("CLICK ON SUBMIT BUTTON");
+            }
+
+            function calculateAttendance3() 
+            {
+                var date_value = document.forms["B3"]["Date_of_attendance3"].value;
+                if (date_value == "") 
+                {
+                    alert("DATE NOT ENTERED");
+                    return false;
+                }
+
+                var subject = "WTL";
+                var checkboxes = document.querySelectorAll('.attendance3 input[type="checkbox"]');
+                var Present3 = 0;
+                var Absent3 = 0;
+                var presentStudents3 = "";
+                var absentStudents3 = "";
+                checkboxes.forEach(function(checkbox) 
+                {
+                    if (checkbox.checked) 
+                    {
+                        Present3++;
+                        presentStudents3 += checkbox.labels[0].textContent + ", ";
+                    } 
+                    
+                    else 
+                    {
+                        Absent3++;
+                        absentStudents3 += checkbox.labels[0].textContent + ", ";
+                    }
+                }
+                );
+                    var P_count3 = Present3;
+                    var A_count3 = Absent3;
+                    var P_rollno3 = presentStudents3.slice(0, -2);
+                    var A_rollno3 = absentStudents3.slice(0, -2);
+                    alert("\t\t\t\t\t\tSUBJECT : " + subject + "\n\n\n" + "DATE OF ATTENDNACE : " + date_value + "\n\n" +"PRESENT STUDENTS \n" + "TOTAL COUNT = " + P_count3 + "\n" +"ROLL NUMBERS : " + P_rollno3 + "\n \n ABSENT STUDENTS \n" + "TOTAL COUNT = " + A_count3 + "\n" +"ROLL NUMBERS = " + A_rollno3);
+                
+                        document.getElementById("sub3").value = subject;
+                        document.getElementById("P_count3").value = P_count3;
+                        document.getElementById("P_roll3").value  = P_rollno3;
+                        document.getElementById("A_count3").value = A_count3;
+                        document.getElementById("A_roll3").value  = A_rollno3;
+                        document.getElementById("Attend3").style.display = "block";
+
+                        alert("CLICK ON SUBMIT BUTTON");
+            }
+
+            function redirectToPage() 
+            {
+                alert("Submit Successfull !")
+                window.location.replace("S1.html");
+                window.location.reload();
+            }
+
+
+            function logout()
+            {
+                window.location.replace("loginpg.html");
+            }
+
+                window.addEventListener('load', function() {
+                document.getElementById('Course_year').value = 'default';
+                });
+        </script>
+    </body>
+</html>                

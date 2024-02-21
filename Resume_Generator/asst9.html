@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title> Assignment 9</title>
+
+        <style>
+            body{
+                background-image: url("https://cdn.pixabay.com/photo/2016/09/11/17/11/digital-1661823_1280.jpg");
+            }
+
+            .form-body{
+                background-color: lightyellow;
+                padding:50px;
+                border-radius:10px;
+                border: 5px solid green;
+                margin : 50px 300px 200px 350px;
+            }
+
+            label{
+                text-transform: uppercase;
+                font-weight: bold;;
+            }
+
+            .optional label{
+                text-transform: lowercase;
+            }
+
+            h1{
+                text-align:center;
+            }
+
+            .submit-button button{
+            background: navy;
+            width:12%;
+            border: 0;
+            border-radius:10px;
+            padding: 15px;
+            color: White;
+            font-size: 15px;
+            box-shadow: 0 0px 10px grey;
+            cursor: pointer;
+            }
+
+            .reset-button button{
+            background: darkred;
+            width:12%;
+            border: 0;
+            border-radius:10px;
+            padding: 15px;
+            color: White;
+            font-size: 15px;
+            box-shadow: 0 2px 4px grey;
+            cursor: pointer;
+            }
+            
+        </style>
+    </head>
+    <body>
+        
+        
+        <form class="form-body" action="Create_resume.php" method="POST">
+            <h1> - RESUME FORM DATA FILLING -</h1>
+            <label for="Name" > Name :</label><br>
+            <input type="text" placeholder="First Name" id="fn" name="First_name" value="" required> 
+            <input type="text" placeholder="Last Name" id="ln" name="Last_name" value="" required> 
+            <br><br>
+
+            <label for = "gender"> Select Gender</label><br>
+            <ul class="optional">
+                <input type="radio" id="gender1" name="gender" value="Male" required> 
+                <label for = "gender1 ">  Male </label><br>
+                <br>
+                <input type="radio" id="gender2" name="gender" value="Female" required> 
+                <label for = "gender2 "> Female </label><br>
+                <br>
+            </ul>
+            <br><br>
+
+            <label for="dt" > Date Of Birth : </label><br>
+            <input type="date" id="dt" name="dt" value="" required >
+            <br><br>
+
+            <label for="num"> Mobile No : </label><br>
+            <input type="number" placeholder="Mob.no" id="num" name="num" min=0 max=9999999999 required>
+            <br><br>
+
+            <label for="email" > Email : </label><br>
+            <input type="email" placeholder="Email" id="email" name="email" value="" required > 
+            <br><br>
+
+            <label for="Status" > Martial Status </label><br>
+            <ul class="optional">
+                <input type="radio" id="s1" name="s" value="Single" required> 
+                <label for = "s1 ">  Single </label><br>
+                <br>
+                <input type="radio" id="s2" name="s" value="Married" required> 
+                <label for = "s2 "> Married </label><br>
+                <br>
+            </ul>
+ 
+            <label for = "Salutation"> Salutation :</label><br>
+            <textarea id="Salutation"  name="Salutation" rows="5" cols="50" ></textarea><br><br> 
+            
+            <label for = "Add" > Address </label><br>
+            <textarea id="Add" name="Address" rows="7" cols="50" required></textarea><br><br>
+
+            <label for = "Edu"> Education </label><br>
+            <textarea id="Edu" name="Education" rows="7" cols="50" required></textarea><br><br>
+
+            <label for = "Exp"> Your Experience </label><br>
+            <textarea id="Exp" name="Experience" rows="7" cols="50" required></textarea><br><br>
+
+            <label for = "Skills"> Your Skills </label><br>
+            <textarea id="Skills" name="Skills" rows="7" cols="50" required></textarea><br><br>
+
+            <label for = "image" > Upload Passport Size Image </label><br>
+            <input type="file" id="image" name="image" required> 
+            <br><br><br>
+            <div class="submit-button">
+                <button type="Submit" value="Submit"> SUBMIT</button>
+            </div>
+            <br>
+            <div class="reset-button">
+                <button type="Reset" value="Reset"> RESET</button>
+            </div>
+            
+        </form>
+    </body>
+</html>

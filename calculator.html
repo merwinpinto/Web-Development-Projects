@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title>
+             Calculator
+        </title>
+
+        <style>
+            body{
+                background-color:bisque;
+            }
+
+            h1{
+                text-align:center;
+            }
+            .contain{
+                width: 20%;
+                padding:10px;
+                margin: 100px 300px 400px 600px;
+                background-color:gray;
+                border-radius:10px;
+            }
+
+            .calci{
+                padding:10px;
+                background-color:Black;
+                text-align:center;
+            }
+
+            .A1 input[type="Button"]{
+                padding:20px;
+                font-size:20px;
+                color:Black;
+                margin :5px;
+            }
+
+            .A1 input[type="Button"]:hover{
+                border:2px solid red;
+                background-color:Yellow;
+            }
+
+            .B input[type="text"]{
+                padding:20px;
+                font-size:20px;
+                color:Black;
+                margin :5px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1> My calculator</h1>
+<div class="contain">
+    <div class="calci">
+        
+        <form>
+        <div class = "B">
+            <input type="text" id="my_data" value="0" readonly>
+        </div>
+        
+        <div class="A1">
+            <input type="Button" value="">
+            <input type="Button" value="">
+            <input type="Button" value="&#9003" onclick="my_data.value = ' ' ">
+            <input type="Button" value="/" onclick="my_data.value  += '/' "> 
+        </div>
+
+        <div class="A1">
+            <input type="Button" value="7" onclick="my_data.value += '7' ">
+            <input type="Button" value="8" onclick="my_data.value += '8' ">
+            <input type="Button" value="9" onclick="my_data.value += '9' ">
+            <input type="Button" value="*" onclick="my_data.value += '*' ">
+        </div>
+
+        <div class="A1">
+            <input type="Button" value="4" onclick="my_data.value += '4' ">
+            <input type="Button" value="5" onclick="my_data.value += '5' ">
+            <input type="Button" value="6" onclick="my_data.value += '6' ">
+            <input type="Button" value="-" onclick="my_data.value += '-' ">
+        </div>
+
+        <div class="A1">
+            <input type="Button" value="1" onclick="my_data.value += '2' ">
+            <input type="Button" value="2" onclick="my_data.value += '2' ">
+            <input type="Button" value="3" onclick="my_data.value += '3' ">
+            <input type="Button" value="+" onclick="my_data.value += '+' ">
+        </div>
+        <div class="A1">
+            <input type="Button" value="">
+            <input type="Button" value="00" onclick="my_data.value += '00' ">
+            <input type="Button" value="0" onclick="my_data.value += '0' ">
+            <input type="Button" value="=" onclick="my_data.value = eval(my_data.value)">
+        </div>
+    </form>
+
+    </div>
+</div>        
+        
+    </body>
+</html>

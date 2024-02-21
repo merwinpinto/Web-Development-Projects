@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<company>
+   <salesman>
+      <name>Name</name>
+      <br>
+      <name1>Merwin</name1>
+      <name2>Yash</name2>
+      <name3>Nikhil</name3>
+   </salesman>
+   <br><br>
+   <food>
+      <snack>FoodStuff</snack>
+      <br>
+      <snack1>Chips</snack1>
+      <snack2>Samosa</snack2>
+      <snack3>Kachori</snack3>
+   </food>
+</company>

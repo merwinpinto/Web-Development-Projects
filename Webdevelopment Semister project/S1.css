@@ -1,0 +1,163 @@
+body{
+  background-image: url("https://media.istockphoto.com/id/1140265911/photo/modern-brick-wall-3d-rendering.jpg?s=612x612&w=0&k=20&c=T_ObRkTzdFtYkBAekQoXFvrTkI5j8VXVXGjQEwRyi1g=");
+ }
+
+ .main-box{
+  border: 7px solid red;
+  background-color:cornsilk;
+  border-radius:10px;
+  padding : 50px;
+  font-family:Verdana;
+  margin : 0px 250px 50px 250px;
+  text-align: left;
+ }
+
+.box1{
+  text-align:center;
+  margin: 80px 0px 30px 0px;
+
+}
+
+.box1 input{
+  text-align:right;
+  padding:10px;
+  border-radius: 10px;
+
+}
+
+.box2 select{
+  background-color:white;
+  padding:20px;
+  border-radius: 10px;
+  text-align:center;
+  margin-top: 50px;
+  margin-left: 300px;
+}
+
+
+.Selection select{
+  text-align:right;
+  background-color: maroon ;
+  color: white;
+  padding:7px;
+  border-radius: 10px;
+}
+
+.text1{
+  color:orange;
+  text-align: center;
+  font-size:50px;
+}
+
+.text2{
+  color:White;
+  text-align: center;
+  font-size:50px;
+}
+
+.text3{
+  color:black;
+  text-align: center;
+  font-size :20px;
+  margin-left: 150px;
+}
+
+.text4{
+  color:white;
+  text-align: center;
+  font-size :20px;
+}
+
+
+
+
+.B1,.B2,.B3{
+  border: 7px solid red;
+  background-color:cornsilk;
+  border-radius:10px;
+  padding : 50px;
+  font-family:Verdana;
+  text-align: center;
+  margin : 0px 250px 0px 250px;
+  color:black;
+  text-align: left;
+}
+
+.b1 input{
+  border: 1px solid black;
+  background-color:white;
+  border-radius:10px;
+  padding : 5px;
+}
+
+
+
+img{
+  background-color:white;
+  border-radius:10px;
+  padding:10px;
+  margin:-250px 30px;
+  float:right;
+}
+
+.Button_design{
+  text-align:right;
+}
+
+.Button_design button {
+    background: crimson;
+    width: 20%;
+     border: 2px solid black;
+    border-radius:10px;
+    padding: 15px;
+    color: White;
+    font-size: 14px;
+    text-transform: uppercase;
+    /* -webkit-transition: all 0.3 ease; */
+    /* transition: all 0.3 ease; */
+    cursor: pointer;
+  }
+
+.Button_design2 button {
+    background: skyblue;
+    width: 20%;
+    border: 2px solid black;
+    border-radius:10px;
+    padding: 15px;
+    color: Black;
+    font-size: 14px;
+    text-transform: uppercase;
+    /* -webkit-transition: all 0.3 ease; */
+    /* transition: all 0.3 ease; */
+    cursor: pointer;
+  }
+
+  .Attendance_colors button {
+    background: slateblue;
+    width: 20%;
+    border: 0;
+    border-radius:10px;
+    padding: 15px;
+    color: White;
+    font-size: 14px;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+
+  .attendance1,.attendance2,.attendance3{
+    float: right;
+    margin: 0px 200px;
+    font-size:17px;
+  }
+
+  #studentList1{
+    margin: -3300px 0px;
+  }
+
+  #studentList2{
+    margin: -2220px 0px;
+  }
+
+  #studentList3{
+    margin: -2220px 0px;
+  }
